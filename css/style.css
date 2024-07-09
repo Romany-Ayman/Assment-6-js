@@ -1,0 +1,113 @@
+:root {
+  scroll-behavior: auto;
+}
+body {
+  background-color: #e3e3e3;
+}
+/* *************************home**************** */
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../image/home.jpg);
+  background-color: rgba(62, 109, 60, 0.799);
+  background-blend-mode: overlay;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: 100vh;
+  z-index: 99;
+
+  display: flex;
+}
+.home a {
+  font-size: 25px;
+  text-decoration: none;
+  color: rgba(62, 109, 60, 0.799);
+  transition: all 1s;
+}
+
+.linkNav {
+  background-color: rgb(23, 25, 25);
+  overflow: hidden;
+  width: 50%;
+  text-decoration: none;
+
+  display: none;
+}
+.linkNav li {
+  list-style-type: none;
+  margin-top: 100px;
+}
+.linkNav li:hover a {
+  color: red;
+}
+
+.home .container-fluid {
+  position: absolute;
+  font-size: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.open {
+  color: rgb(17, 226, 66);
+  cursor: pointer;
+}
+/* ********************** Duration**************** */
+.singer {
+  background-image: linear-gradient(to bottom right, green, yellow);
+  text-align: center;
+  width: 500px;
+  position: relative;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+.textSinger {
+  color: #fff;
+  display: none;
+}
+.teamLest {
+  width: 100%;
+  min-height: 300px;
+  background-image: url(../image/images.jpg);
+  background-color: rgba(13, 176, 235, 0.293);
+  background-blend-mode: overlay;
+  background-position: center;
+  position: relative;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+/* **********************Evant*********** */
+.evant .team {
+  padding: 90px;
+  border: #fff solid 5px;
+  font-size: 50px;
+  color: rgb(50, 239, 17);
+  overflow: hidden;
+}
+.textEvant {
+  color: yellow;
+}
+/* ***************footer**************** */
+.iconeTex {
+  border: solid 2px black;
+  padding: 5px;
+  transition: all 1s;
+}
+.iconeTex:hover {
+  background-color: rgb(112, 252, 100);
+  color: rgb(128, 15, 0);
+}
+.headSiger {
+  cursor: pointer;
+}
